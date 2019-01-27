@@ -5,32 +5,38 @@ class ContactButtons extends Component {
     return (
       <div className="container">
         <div className="ContactButtons row">
-          <div className="GitHubBtn">
-            <h2 className="dark">
-              <a
-                href="https://github.com/KatieJessupMcd"
-                className="fab fa-github-square"
-                title="GitHub"
-              />
-            </h2>
+          <div className="col-xs">
+            <div className="GitHubBtn">
+              <h2 className="dark">
+                <a
+                  href="https://github.com/KatieJessupMcd"
+                  className="fab fa-github-square"
+                  title="GitHub"
+                />
+              </h2>
+            </div>
           </div>
-          <div className="LinkedInBtn">
-            <h2 className="dark">
-              <a
-                href="https://www.linkedin.com/in/katie-gray-458709b5"
-                className="fab fa-linkedin"
-                title="LinkedIn"
-              />
-            </h2>
+          <div className="col-xs">
+            <div className="LinkedInBtn">
+              <h2 className="dark">
+                <a
+                  href="https://www.linkedin.com/in/katie-gray-458709b5"
+                  className="fab fa-linkedin"
+                  title="LinkedIn"
+                />
+              </h2>
+            </div>
           </div>
-          <div className="AngelListBtn">
-            <h2 className="dark">
-              <a
-                href="https://angel.co/katie-m-gray"
-                className="fab fa-angellist"
-                title="AngelList"
-              />
-            </h2>
+          <div className="col-xs">
+            <div className="AngelListBtn">
+              <h2 className="dark">
+                <a
+                  href="https://angel.co/katie-m-gray"
+                  className="fab fa-angellist"
+                  title="AngelList"
+                />
+              </h2>
+            </div>
           </div>
           <div className="ResumeBtn" />
         </div>
