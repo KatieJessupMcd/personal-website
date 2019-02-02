@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-// import './NavBar.css';
+import './App.css';
+import './grid.css'; 
 
 class NavBar extends Component {
   render() {
@@ -8,54 +9,33 @@ class NavBar extends Component {
       fontWeight: 'bold'
     };
     return (
-      <nav
-        className="navbar navbar-expand-lg navbar-primary border-bottom"
-        // style={{ backgroundColor: 'white' }}
-      >
-        <div className="container">
-          <NavLink
-            activeStyle={activeStyle}
-            className="navbar-brand navbar-nav mr-auto"
-            exact
-            to="/"
-          >
-            Home
-          </NavLink>
+      <div id="container">
+        <nav>
+          <ol>
+            <li>
+              <NavLink activeStyle={activeStyle} exact to="/">
+                Home
+              </NavLink>
+            </li>
 
-          <div className="navbar" id="navbarText">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <NavLink
-                  activeStyle={activeStyle}
-                  className="nav-link"
-                  to="/work"
-                >
-                  Work
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  activeStyle={activeStyle}
-                  className="nav-link"
-                  to="/about"
-                >
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  activeStyle={activeStyle}
-                  className="nav-link"
-                  to="/contact"
-                >
-                  Contact
-                </NavLink>
-              </li>
-              <li className="nav-item" />
-            </ul>
-          </div>
-        </div>
-      </nav>
+            <li>
+              <NavLink activeStyle={activeStyle} to="/work">
+                Work
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeStyle={activeStyle} to="/about">
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeStyle={activeStyle} to="/contact">
+                Contact
+              </NavLink>
+            </li>
+          </ol>
+        </nav>
+      </div>
     );
   }
 }
