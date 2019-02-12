@@ -10,30 +10,29 @@ class NavBar extends Component {
     };
     return (
       <div id="container">
-        <nav>
-          <ol>
-            <li>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light mr-auto">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item px-2">
               <NavLink activeStyle={activeStyle} exact to="/">
                 Home
               </NavLink>
             </li>
-
-            <li>
+            <li className="nav-item px-2">
               <NavLink activeStyle={activeStyle} to="/work">
                 Work
               </NavLink>
             </li>
-            <li>
+            <li className="nav-item px-2">
               <NavLink activeStyle={activeStyle} to="/about">
                 About
               </NavLink>
             </li>
-            <li>
+            <li className="nav-item px-2">
               <NavLink activeStyle={activeStyle} to="/contact">
                 Contact
               </NavLink>
             </li>
-          </ol>
+          </ul>
         </nav>
       </div>
     );

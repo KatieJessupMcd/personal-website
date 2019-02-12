@@ -1,4 +1,4 @@
-#container {
+/* #container {
   display: flex; 
   flex-flow: column nowrap
 }
@@ -26,3 +26,13 @@ nav > ol > li > a {
   height: 100%; 
   object-fit: contain; 
 }
+
+.HomePage {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.HomePageInfo {
+
+} */

@@ -4,9 +4,14 @@ import ContactButtons from './ContactButtons';
 class ContactPage extends Component {
   render() {
     return (
-      <div className="ContactPage">
-        <h1>This will be the Contact Page </h1>
-        <ContactButtons />
+      <div className="ContactPage col d-flex align-items-center justify-content-center">
+        <div className="row pt-5">
+          <div className="ContactMessage text-center" />
+          <h1>Get in touch! </h1>
+        </div>
+        <div className="row pt-5">
+          <ContactButtons />
+        </div>
       </div>
     );
   }

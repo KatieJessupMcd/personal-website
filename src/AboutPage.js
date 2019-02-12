@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import headShot from './headShot.jpg';
-import './grid.css'
 import './App.css'; 
 
 class AboutPage extends Component {
@@ -8,12 +7,12 @@ class AboutPage extends Component {
     return (
       <main>
         <section id="about">
-          <div className="row">
-            <div className="col-1 image-container">
-              <img src={headShot} alt="" className="profile" />
+          <div className="row pt-5">
+            <div className="col-6 image-container">
+              <img src={headShot} alt="" className="profile" style={{width: '100%', borderRadius: '50%'}} />
             </div>
 
-            <div className="col-4">
+            <div className="col-6">
               <h1>About me</h1>
               <p>
                 I am a fullstack software engineer studying at Rithm School.{' '}
