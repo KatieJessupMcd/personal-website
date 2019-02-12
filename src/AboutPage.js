@@ -8,11 +8,11 @@ class AboutPage extends Component {
       <main>
         <section id="about">
           <div className="row pt-5">
-            <div className="col-6 image-container">
-              <img src={headShot} alt="" className="profile" style={{width: '100%', borderRadius: '50%'}} />
+            <div className="col-6 text-center">
+              <img src={headShot} alt="" className="profile" style={{width: '75%', borderRadius: '50%'}} />
             </div>
 
-            <div className="col-6">
+            <div className="col-5 pt-5">
               <h1>About me</h1>
               <p>
                 I am a fullstack software engineer studying at Rithm School.{' '}

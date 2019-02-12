@@ -6,11 +6,15 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <div className="HomePage col d-flex align-items-center justify-content-center">
-          <HomePageInfo />
+        <div className="HomePage row">
+          <div className="HomePage col d-flex align-items-center justify-content-center">
+            <HomePageInfo />
+          </div>
         </div>
-        <div className="ContactButtons">
-          <ContactButtons />
+        <div className="ContactButtons row">
+          <div className="ContactButtons col d-flex align-items-center justify-content-center">
+            <ContactButtons />
+          </div>
         </div>
       </div>
     );
