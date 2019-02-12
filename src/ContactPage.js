@@ -4,13 +4,16 @@ import ContactButtons from './ContactButtons';
 class ContactPage extends Component {
   render() {
     return (
-      <div className="ContactPage col d-flex align-items-center justify-content-center">
-        <div className="row pt-5">
-          <div className="ContactMessage text-center" />
-          <h1>Get in touch! </h1>
+      <div>
+        <div className="row py-5">
+          <div className="ContactMessage col d-flex align-items-center justify-content-center">
+            <h1>Like what you see? Get in touch!</h1>
+          </div>
         </div>
-        <div className="row pt-5">
-          <ContactButtons />
+        <div className="ContactButtons row">
+          <div className="ContactButtons col d-flex align-items-center justify-content-center">
+            <ContactButtons />
+          </div>
         </div>
       </div>
     );
