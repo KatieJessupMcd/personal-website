@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div id="container">
-        <NavBar />
+        {/* <NavBar /> */}
         <Routes />
       </div>
     );

@@ -9,16 +9,18 @@ class AboutPage extends Component {
         <section id="about">
           <div className="row pt-5">
             <div className="col-6 text-center">
-              <img src={headShot} alt="" className="profile" style={{width: '75%', borderRadius: '50%'}} />
+              <img src={headShot} alt="" className="profile" style={{width: '75%', marginTop: '1rem'}} />
             </div>
 
-            <div className="col-5 pt-5">
+            <div className="col-5 pt-2">
               <h1>About me</h1>
               <p>
-                I am a fullstack software engineer studying at Rithm School.{' '}
+              I am a full stack web developer based in the Bay Area with a passion for detail and
+              problem solving.
               </p>
            
               <p>
+                I grew up in a small village in Alaska above the Arctic Circle. My connection to the rest of the world was through a tenuous dial up tone, a connection that has thankfully since improved. 
                 Prior to transitioning to tech I was a music teacher and band
                 director. My love of organization, problem solving, and growth
                 mindset led me to study programming.{' '}
