@@ -3,12 +3,11 @@ import NavBar from './NavBar';
 import Routes from './Routes';
 import './App.css';
 
-
 class App extends Component {
   render() {
     return (
-      <div id="container">
-        {/* <NavBar /> */}
+      <div id="container-fluid">
+        <NavBar />
         <Routes />
       </div>
     );

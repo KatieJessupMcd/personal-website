@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import HomePage from './HomePage';
 import WorkPage from './WorkPage';
 import AboutPage from './AboutPage';
-import ContactPage from './ContactPage';
+
 
 class Routes extends Component {
   render() {
@@ -39,15 +39,6 @@ class Routes extends Component {
             )}
             isLoggedIn={this.props.isLoggedIn}
           />
-          <Route
-            exact
-            path="/contact"
-            render={props => (
-              <ContactPage {...props} currentUser={this.props.currentUser} />
-            )}
-            isLoggedIn={this.props.isLoggedIn}
-          />
-
           <Redirect to="/" />
         </Switch>
       </div>

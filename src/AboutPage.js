@@ -5,15 +5,14 @@ import './App.css';
 class AboutPage extends Component {
   render() {
     return (
-      <main>
-        <section id="about">
+      <div style={{ height: '100vh'}}  id="about">
           <div className="row pt-5">
             <div className="col-6 text-center">
-              <img src={headShot} alt="" className="profile" style={{width: '75%', marginTop: '1rem'}} />
+              <img src={headShot} alt="" className="profile" style={{width: '75%', paddingTop: '2rem'}} />
             </div>
 
-            <div className="col-5 pt-2">
-              <h1>About me</h1>
+            <div className="col-5">
+              <h1 className="HeaderText">About me</h1>
               <p>
               I am a full stack web developer based in the Bay Area with a passion for detail and
               problem solving.
@@ -32,8 +31,7 @@ class AboutPage extends Component {
               </p>
             </div>
             </div>
-        </section>
-      </main>
+        </div>
     );
   }
 }

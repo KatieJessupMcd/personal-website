@@ -4,8 +4,11 @@ class ContactButtons extends Component {
   render() {
     return (
       <div>
-        <div className="row pt-5">
-          <div className="contact">
+        <div
+          className="footer"
+          style={{ position: 'fixed', left: '1rem', bottom: '1rem' }}
+        >
+          <div className="contact py-1" >
             <i>
               <a
                 href="https://github.com/KatieJessupMcd"
@@ -15,22 +18,20 @@ class ContactButtons extends Component {
               />
             </i>
           </div>
-          <div className="contact col-sm-4 text-center">
+          <div className="contact py-1">
             <i>
               <a
                 href="https://angel.co/katie-m-gray"
                 className="fab fa-angellist fa-4x"
-                
                 title="AngelList"
               />
             </i>
           </div>
-          <div className="contact col-sm-4 text-center">
+          <div className="contact py-1">
             <i>
               <a
                 href="https://www.linkedin.com/in/katie-gray-458709b5"
                 className="fab fa-linkedin fa-4x"
-                
                 title="LinkedIn"
               />
             </i>
