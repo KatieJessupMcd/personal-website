@@ -7,11 +7,13 @@ class AboutPage extends Component {
     return (
       <div style={{ height: '100vh'}}  id="about">
           <div className="row pt-5">
-            <div className="col-6 text-center">
-              <img src={headShot} alt="" className="profile" style={{width: '75%', paddingTop: '2rem'}} />
+            <div className="col-6 text-center xs-col-12">
+            <div className="image-container">
+              <img src={headShot} alt="" className="profile" style={{width: '33rem', marginTop: '4rem', borderRadius: '5%'}} />
+              </div>
             </div>
 
-            <div className="col-5">
+            <div className="col-5 xs-col-12">
               <h1 className="HeaderText">About me</h1>
               <p>
               I am a full stack web developer based in the Bay Area with a passion for detail and

@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import resume from './static/KatieGray_Resume.pdf'
 
 class ContactButtons extends Component {
   render() {
@@ -8,6 +9,17 @@ class ContactButtons extends Component {
           className="footer"
           style={{ position: 'fixed', left: '1rem', bottom: '1rem' }}
         >
+          <div className="contact py-1" >
+            <i>
+              <a
+                href={resume}
+                target="_blank"
+                className="far fa-file-alt fa-4x"
+                title="Resume"
+                alt="resume"
+              />
+            </i>
+          </div>
           <div className="contact py-1" >
             <i>
               <a
