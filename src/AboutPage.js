@@ -5,7 +5,7 @@ import './App.css';
 class AboutPage extends Component {
   render() {
     return (
-      <section style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} className="pt-5" id="about">
+      <section style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} id="about">
           <div className="row">
             <div className="col-6 text-center xs-col-12">
             <div className="image-container">

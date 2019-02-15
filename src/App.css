@@ -35,12 +35,22 @@ p {
   border-radius: 1rem
 }
 
+.card-link, .card-link:hover {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 1.25rem;
+}
+.card-link:hover {
+  color: #ac3b61; 
+}
+
 .card-img-top {
   width: 100%;
   height: 15vw;
   object-fit: cover;
-  border-top-left-radius: 1rem; 
-  border-top-right-radius: 1rem; 
+}
+
+.card-img-top:hover {
+  opacity: 0.4; 
 }
 
 .flex-grid-thirds {
@@ -53,7 +63,7 @@ p {
   margin-top: 28px; 
   padding:0; 
   max-width: 1200px; 
-  font-family: 'Poppins', sans-serif;; 
+  font-family: 'Poppins', sans-serif; 
 }
 
 
