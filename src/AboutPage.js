@@ -7,13 +7,13 @@ class AboutPage extends Component {
     return (
       <section style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} id="about">
           <div className="row">
-            <div className="col-6 text-center xs-col-12">
+            <div className="col-xs-6 col-md-6 col-lg-6 text-center">
             <div className="image-container">
-              <img src={headShot} alt="" className="profile" style={{width: '33rem', marginTop: '4rem', borderRadius: '5%'}} />
+              <img src={headShot} alt="" className="profile img-responsive" style={{width: '33rem', marginTop: '4rem', borderRadius: '5%'}} />
               </div>
             </div>
 
-            <div className="col-5 xs-col-12">
+            <div className="col-xs-5 col-md-5 col-lg-5">
               <h1 className="HeaderText">About me</h1>
               <p>
               I am a full stack web developer based in the Bay Area with a passion for detail and
