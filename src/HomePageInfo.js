@@ -6,7 +6,7 @@ class HomePageInfo extends Component {
       <section style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} className="pt-5" id="home">
         <div >
           <div className="HomePageInfo text-center">
-            <h1 class="BigText"> Hi, I'm Katie! </h1>
+            <h1 className="BigText"> Hi, I'm Katie! </h1>
           </div>
         </div>
         

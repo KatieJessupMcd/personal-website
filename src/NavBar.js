@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import './App.css';
 
 class NavBar extends Component {
@@ -12,17 +11,17 @@ class NavBar extends Component {
         <nav className="navbar navbar-expand-lg mr-auto fixed-top" style={{fontSize:"1.5rem", backgroundColor: '#EEE2DC'}}>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item px-2">
-              <a activeStyle={activeStyle} href="#home">
+              <a activestyle={activeStyle} href="#home">
                 Home
               </a>
             </li>
             <li className="nav-item px-2">
-              <a activeStyle={activeStyle} href="#about">
+              <a activestyle={activeStyle} href="#about">
                 About
               </a>
             </li>
             <li className="nav-item px-2">
-              <a activeStyle={activeStyle} href="#work">
+              <a activestyle={activeStyle} href="#work">
                 Work
               </a>
             </li>

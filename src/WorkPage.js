@@ -27,10 +27,10 @@ class WorkPage extends Component {
           </div>
           <div className="row mt-3">
             <div className="workCard col-lg-4 d-flex align-items-stretch">
-              <div class="card workCard mx-3">
+              <div className="card workCard mx-3">
                 <a href="https://katiejessupmcd.github.io/matching_game/">
                   <img
-                    class="card-img-top"
+                    className="card-img-top"
                     src={matchingScreenshot}
                     alt="matchingScreenshot"
                   />
@@ -39,8 +39,8 @@ class WorkPage extends Component {
                   <h3 className="card-title">Matching Game </h3>
                   <p className="card-subtitle">JS | HTML | CSS </p>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item text-center">
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item text-center">
                     <a
                       href="https://github.com/KatieJessupMcd/matching_game"
                       className="card-link"
@@ -58,10 +58,10 @@ class WorkPage extends Component {
             </div>
 
             <div className="workCard col-lg-4 d-flex align-items-stretch">
-              <div class="card workCard mx-3">
+              <div className="card workCard mx-3">
                 <a href="https://react-jobly-frontend-katieg.herokuapp.com/">
                   <img
-                    class="card-img-top"
+                    className="card-img-top"
                     src={joblyScreenshot}
                     alt="joblyScreenshot"
                   />
@@ -70,8 +70,8 @@ class WorkPage extends Component {
                   <h3 className="card-title">Jobly</h3>
                   <p className="card-subtitle">React | Node | PostgreSQL</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item text-center">
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item text-center">
                     <a
                       href="https://github.com/KatieJessupMcd/react-jobly"
                       className="card-link"
@@ -89,10 +89,10 @@ class WorkPage extends Component {
             </div>
 
             <div className="workCard col-lg-4 d-flex align-items-stretch">
-              <div class="card workCard mx-3">
+              <div className="card workCard mx-3">
                 <a href="https://warbler-katieg.herokuapp.com/">
                   <img
-                    class="card-img-top"
+                    className="card-img-top"
                     src={warblerScreenshot}
                     alt="warblerScreenshot"
                   />
@@ -101,8 +101,8 @@ class WorkPage extends Component {
                   <h3 className="card-title">Warbler</h3>
                   <p className="card-subtitle">Flask | Jinja | PostgreSQL</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item text-center">
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item text-center">
                     <a
                       href="https://github.com/KatieJessupMcd/warbler"
                       className="card-link"
