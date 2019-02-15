@@ -5,8 +5,8 @@ import './App.css';
 class AboutPage extends Component {
   render() {
     return (
-      <div style={{ height: '100vh'}}  id="about">
-          <div className="row pt-5">
+      <section style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} className="pt-5" id="about">
+          <div className="row">
             <div className="col-6 text-center xs-col-12">
             <div className="image-container">
               <img src={headShot} alt="" className="profile" style={{width: '33rem', marginTop: '4rem', borderRadius: '5%'}} />
@@ -33,7 +33,7 @@ class AboutPage extends Component {
               </p>
             </div>
             </div>
-        </div>
+        </section>
     );
   }
 }

@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class HomePageInfo extends Component {
   render() {
     return (
-      <div style={{ height: '100vh' }} className="pt-5" id="home">
-        <div className="pt-5">
+      <section style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} className="pt-5" id="home">
+        <div >
           <div className="HomePageInfo text-center">
             <h1 class="BigText"> Hi, I'm Katie! </h1>
           </div>
@@ -12,7 +12,7 @@ class HomePageInfo extends Component {
         
           <h3 className="frontPage text-center">
             {' '}
-            Full Stack Web Developer | Alaska Native | Former Music Teacher{' '}
+            Full Stack Web Developer | Alaska Native | Former Music&nbsp;Teacher{' '}
           </h3>
         
 
@@ -33,7 +33,7 @@ class HomePageInfo extends Component {
           <li className="col-home language">POSTGRESQL</li>
           <li className="col-home frontend">JQUERY</li>
         </ul>
-      </div>
+      </section>
     );
   }
 }

@@ -6,18 +6,29 @@ import warblerScreenshot from './WarblerScreenshot.png';
 class WorkPage extends Component {
   render() {
     return (
-      <div className="pt-5">
-        <div style={{ height: '100vh' }} className="pt-5" id="work">
-          <div className="WorkPage text-center pt-5">
+      <div>
+        <section
+          style={{
+            height: '100vh',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+          className="pt-5"
+          id="work"
+        >
+          <div className="WorkPage text-center">
             <h1 className="HeaderText">Check out my work!</h1>
-            <p>Click on the thumbnail for a live demo or take a look at my GitHub repo</p>
+            <p>
+              Click on the thumbnail for a live demo or take a look at my GitHub
+              repo
+            </p>
           </div>
           <div className="row mt-3">
             <div className="workCard col-lg-4 d-flex align-items-stretch">
               <a href="https://katiejessupmcd.github.io/matching_game/">
-                <div
-                  class="card workCard mx-3"
-                >
+                <div class="card workCard mx-3">
                   <img
                     class="card-img-top"
                     src={matchingScreenshot}
@@ -33,9 +44,7 @@ class WorkPage extends Component {
 
             <div className="workCard col-lg-4 d-flex align-items-stretch">
               <a href="https://react-jobly-frontend-katieg.herokuapp.com/">
-                <div
-                  class="card workCard mx-3"
-                >
+                <div class="card workCard mx-3">
                   <img
                     class="card-img-top"
                     src={joblyScreenshot}
@@ -51,9 +60,7 @@ class WorkPage extends Component {
 
             <div class="workCard col-lg-4 d-flex align-items-stretch">
               <a href="https://warbler-katieg.herokuapp.com/">
-                <div
-                  class="card workCard mx-3"
-                >
+                <div class="card workCard mx-3">
                   <img
                     class="card-img-top img-responsive"
                     src={warblerScreenshot}
@@ -90,7 +97,7 @@ class WorkPage extends Component {
               </p>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     );
   }
