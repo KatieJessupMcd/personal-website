@@ -1,27 +1,85 @@
+html,
+body {
+  background-color: #eee2dc;
+  font-family: 'Varela Round', sans-serif;
+}
+
 .BigText {
-  color: #AC3B61; 
-  font-size: 8rem; 
+  color: #ac3b61;
+  font-size: 8rem;
 }
 
 .HeaderText {
-  color: #AC3B61; 
-  font-size: 6rem; 
+  color: #ac3b61;
+  font-size: 6rem;
 }
 
-a, a:hover {
-  color:#123C69; 
+.frontPage {
+  color: #123c69;
+  font-size: 2.25rem;
+}
+
+a,
+a:hover {
+  color: #123c69;
 }
 
 p {
-  color: #123C69;
-  font-size: 1.25rem; 
+  color: #123c69;
+  font-size: 1.25rem;
 }
 
-.card {
-  color: #123C69; 
+.workCard {
+  height: '20rem';
+  width: '20rem';
+  border-radius: 1rem
 }
 
-html, body {
-  background-color: #EEE2DC
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+  border-top-left-radius: 1rem; 
+  border-top-right-radius: 1rem; 
 }
 
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.flex-grid-thirds .col-home {
+  width: 32%;
+}
+
+.col-home {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #123c69;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.language {
+  background-color: #74bdcb;
+}
+
+.frontend {
+  background-color: #e7f2f8;
+}
+
+.backend {
+  background-color: #b99095;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
