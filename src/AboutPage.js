@@ -16,7 +16,7 @@ class AboutPage extends Component {
             <div className="col-xs-5 col-md-5 col-lg-5">
               <h1 className="HeaderText">About me</h1>
               <p>
-              I am a full stack web developer based in the Bay Area with a passion for detail and
+              I am a full stack software engineer based in the Bay Area with a passion for detail and
               problem solving.
               </p>
            
