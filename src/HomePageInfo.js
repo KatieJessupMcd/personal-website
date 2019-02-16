@@ -12,7 +12,7 @@ class HomePageInfo extends Component {
         
           <h3 className="frontPage text-center">
             {' '}
-            Full Stack Web Developer | Alaska Native | Former Music&nbsp;Teacher{' '}
+            Full Stack Software Engineer | Alaska Native | Former Music&nbsp;Teacher{' '}
           </h3>
         
 
