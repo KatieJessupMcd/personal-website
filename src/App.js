@@ -6,7 +6,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div id="container-fluid">
+      <div>
         <NavBar />
         <Routes />
       </div>

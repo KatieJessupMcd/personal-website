@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class HomePageInfo extends Component {
   render() {
     return (
-      <section style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} className="pt-5" id="home">
-        <div >
+      <section style={{ minHeight: '50vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} className="pt-5" id="home">
+        <div className="col-xs-12">
           <div className="HomePageInfo text-center">
             <h1 className="BigText"> Hi, I'm Katie! </h1>
           </div>

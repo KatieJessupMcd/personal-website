@@ -9,7 +9,7 @@ class WorkPage extends Component {
       <div>
         <section
           style={{
-            height: '100vh',
+            minHeight: '100vh',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
@@ -19,7 +19,7 @@ class WorkPage extends Component {
           id="work"
         >
           <div className="WorkPage text-center">
-            <h1 className="HeaderText">Check out my work!</h1>
+            <h1 className="HeaderText">Check out my&nbsp;work!</h1>
             <p>
               Click image for a live demo or take a look at my GitHub
               repo
