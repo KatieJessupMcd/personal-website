@@ -28,28 +28,36 @@ class MatchingGameProjectPage extends Component {
             </div>
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <div className="row">
-                <h3 className="col-12">
-                  A basic matching game built with HTML, CSS and JavaScript.
-                </h3>
-
                 <h4 className="col-12">
-                  <a href="https://katiejessupmcd.github.io/matching_game/">
-                    {' '}
-                    Live Site
-                  </a>{' '}
-                  |{' '}
-                  <a
-                    href="https://github.com/KatieJessupMcd/matching_game"
-                    className="card-link"
-                  >
-                    GitHub Repo{' '}
-                    <i
-                      className="fab fa-github-square fa-2x"
-                      title="GitHub"
-                      alt="github"
-                    />
-                  </a>
+                  A basic matching game built with HTML, CSS and JavaScript.
                 </h4>
+
+                <div className="col-12">
+                  <span>
+                    <a
+                      href="https://katiejessupmcd.github.io/matching_game/"
+                      className="card-link"
+                    >
+                      Live Site
+                    </a>
+                    </span>
+                    {' '}
+                    |
+                    {' '}
+                    <span>
+                    <a
+                      href="https://github.com/KatieJessupMcd/matching_game"
+                      className="card-link"
+                    >
+                      GitHub Repo{' '}
+                      <i
+                        className="fab fa-github-square fa-1x"
+                        title="GitHub"
+                        alt="github"
+                      />
+                    </a>
+                    </span>
+                </div>
               </div>
             </div>
           </div>

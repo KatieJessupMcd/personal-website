@@ -33,38 +33,43 @@ class JoblyProjectPage extends Component {
             </div>
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <div className="row">
-                <h3 className="col-12">
-                  <strong>Jobly</strong> is a mock job listing and app that allows users to view
-                  companies as well as apply to jobs posted by those companies.
-                  JSON web tokens and BCrypt was used for authorization and
-                  authentication for user signup and login. The frontend is
-                  built in React, and the backend is built in Node.js/Express.
-                  The database is written in PostgreSQL. Styling is done with
-                  Bootstrap.
-                </h3>
-                
-                  <h4 className="col-12">
-                    <a href="https://react-jobly-frontend-katieg.herokuapp.com/">
-                      {' '}
+                <h4 className="col-12">
+                  <strong>Jobly</strong> is a mock job listing and app that
+                  allows users to view companies as well as apply to jobs posted
+                  by those companies. JSON web tokens and BCrypt was used for
+                  authorization and authentication for user signup and login.
+                  The frontend is built in React, and the backend is built in
+                  Node.js/Express. The database is written in PostgreSQL.
+                  Styling is done with Bootstrap.
+                </h4>
+
+                <div className="col-12">
+                  <span>
+                    <a
+                      href="https://react-jobly-frontend-katieg.herokuapp.com/"
+                      className="card-link"
+                    >
                       Live Site
-                    </a>{' '}
-                    |{' '}
+                    </a>
+                  </span>{' '}
+                  |{' '}
+                  <span>
                     <a
                       href="https://github.com/KatieJessupMcd/react-jobly"
                       className="card-link"
                     >
                       GitHub Repo{' '}
                       <i
-                        className="fab fa-github-square fa-2x"
+                        className="fab fa-github-square fa-1x"
                         title="GitHub"
                         alt="github"
                       />
                     </a>
-                  </h4>
+                  </span>
                 </div>
               </div>
             </div>
-         
+          </div>
         </section>
       </div>
     );

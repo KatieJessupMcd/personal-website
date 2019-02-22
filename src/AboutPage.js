@@ -13,7 +13,7 @@ class AboutPage extends Component {
               </div>
             </div>
 
-            <div className="col-12 col-md-6 ">
+            <div className="col-12 col-md-6 pt-5">
               <h1 className="AboutHeaderText">About me</h1>
 
               <p className="aboutText">

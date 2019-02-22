@@ -28,7 +28,7 @@ class WarblerProjectPage extends Component {
             </div>
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <div className="row">
-                <h3 className="col-12">
+                <h4 className="col-12">
                   <strong>Warbler</strong> is a mock Twitter clone. Users can
                   signup/login, follow other others, be followed by other users,
                   and create "warbles" (tweets). BCrypt is used for user
@@ -37,23 +37,32 @@ class WarblerProjectPage extends Component {
                   templating system Jinja is used for HTML. The database is
                   PostrgreSQL. Tests are written for the views and models using
                   the unittest module.
-                </h3>
-
-                <h4 className="col-12">
-                  <a href="https://warbler-katieg.herokuapp.com/"> Live Site</a>{' '}
-                  |{' '}
-                  <a
-                    href="https://github.com/KatieJessupMcd/warbler"
-                    className="card-link"
-                  >
-                    GitHub Repo{' '}
-                    <i
-                      className="fab fa-github-square fa-2x"
-                      title="GitHub"
-                      alt="github"
-                    />
-                  </a>
                 </h4>
+
+                <div className="col-12">
+                  <span>
+                    <a
+                      href="https://warbler-katieg.herokuapp.com/"
+                      className="card-link"
+                    >
+                      Live Site
+                    </a>
+                  </span>{' '}
+                  |{' '}
+                  <span>
+                    <a
+                      href="https://github.com/KatieJessupMcd/warbler"
+                      className="card-link"
+                    >
+                      GitHub Repo{' '}
+                      <i
+                        className="fab fa-github-square fa-1x"
+                        title="GitHub"
+                        alt="github"
+                      />
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>

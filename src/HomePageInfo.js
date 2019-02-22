@@ -5,7 +5,7 @@ class HomePageInfo extends Component {
     return (
       <section
         style={{
-          minHeight: '50vh',
+          minHeight: '25vh',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',

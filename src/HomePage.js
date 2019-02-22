@@ -11,7 +11,7 @@ class HomePage extends Component {
   render() {
     return (
       <div class="container-fluid">
-        <div className="HomePage row">
+        <div className="HomePage row" style={{minHeight: '25vh'}}>
           <div className="col-1" />
           <div className="col-10 p-0">
             <div className="HomePage col d-flex align-items-center justify-content-center">
@@ -20,7 +20,7 @@ class HomePage extends Component {
           </div>
         </div>
 
-        <div className="JoblyProjectPage row">
+        <div className="JoblyProjectPage row" style={{minHeight: '40vh'}}>
           <div className="col-1" />
           <div className="col-10 p-0">
             {/* <div className="JoblyProjectPage col d-flex align-items-center justify-content-center"> */}
@@ -28,7 +28,7 @@ class HomePage extends Component {
             {/* </div> */}
           </div>
         </div>
-        <div className="WarblerProjectPage row">
+        <div className="WarblerProjectPage row" style={{minHeight: '40vh'}}>
           <div className="col-1" />
           <div className="col-10 p-0">
             {/* <div className="WarblerProjectPage col d-flex align-items-center justify-content-center"> */}
@@ -36,7 +36,7 @@ class HomePage extends Component {
             {/* </div> */}
           </div>
         </div>
-        <div className="MatchingGameProjectPage row">
+        <div className="MatchingGameProjectPage row" style={{minHeight: '40vh'}}>
           <div className="col-1" />
           <div className="col-10 p-0">
             {/* <div className="MatchingGameProjectPage col d-flex align-items-center justify-content-center"> */}
@@ -44,14 +44,7 @@ class HomePage extends Component {
             {/* </div> */}
           </div>
         </div>
-        {/* <div className="WorkPage row">
-          <div className="col-1" />
-          <div className="col-10 p-0">
-            <div className="WorkPage col d-flex align-items-center justify-content-center">
-              <WorkPage />
-            </div>
-          </div>
-        </div> */}
+        
 
         <div className="AboutPage row">
           <div className="col-1" />
