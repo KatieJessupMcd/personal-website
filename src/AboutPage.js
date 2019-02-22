@@ -14,7 +14,7 @@ class AboutPage extends Component {
             </div>
 
             <div className="col-12 col-md-6 ">
-              <h1 className="HeaderText">About me</h1>
+              <h1 className="AboutHeaderText">About me</h1>
 
               <p className="aboutText">
               I am a full stack software engineer based in the Bay Area with a passion for detail and

@@ -16,13 +16,13 @@ class NavBar extends Component {
               </a>
             </li>
             <li className="nav-item px-2">
-              <a activestyle={activeStyle} href="#about">
-                About
+              <a activestyle={activeStyle} href="#work">
+                Work
               </a>
             </li>
             <li className="nav-item px-2">
-              <a activestyle={activeStyle} href="#work">
-                Work
+              <a activestyle={activeStyle} href="#about">
+                About
               </a>
             </li>
           </ul>

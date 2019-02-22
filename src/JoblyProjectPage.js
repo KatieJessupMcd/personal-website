@@ -22,14 +22,11 @@ class JoblyProjectPage extends Component {
             <h1 className="HeaderText col-xs-12 col-sm-12 col-md-12 col-lg-12">
               Check out my work!
             </h1>
-            <p className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              Click image for a live demo or take a look at my GitHub repo
-            </p>
           </div>
-          <div className="row">
+          <div className="row pt-5">
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <img
-                className="card-img-top"
+                className="screenshot"
                 src={joblyScreenshot}
                 alt="joblyScreenshot"
               />
@@ -37,7 +34,7 @@ class JoblyProjectPage extends Component {
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <div className="row">
                 <h3 className="col-12">
-                  Jobly is a mock job listing and app that allows users to view
+                  <strong>Jobly</strong> is a mock job listing and app that allows users to view
                   companies as well as apply to jobs posted by those companies.
                   JSON web tokens and BCrypt was used for authorization and
                   authentication for user signup and login. The frontend is
@@ -45,9 +42,14 @@ class JoblyProjectPage extends Component {
                   The database is written in PostgreSQL. Styling is done with
                   Bootstrap.
                 </h3>
-                <div className="row">
+                
                   <h4 className="col-12">
-                  <a href="https://react-jobly-frontend-katieg.herokuapp.com/"> Live Site</a> | <a
+                    <a href="https://react-jobly-frontend-katieg.herokuapp.com/">
+                      {' '}
+                      Live Site
+                    </a>{' '}
+                    |{' '}
+                    <a
                       href="https://github.com/KatieJessupMcd/react-jobly"
                       className="card-link"
                     >
@@ -62,7 +64,7 @@ class JoblyProjectPage extends Component {
                 </div>
               </div>
             </div>
-          </div>
+         
         </section>
       </div>
     );
